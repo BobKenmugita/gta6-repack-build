@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d0d0f"/>
+
+  <!-- Background grunge texture blocks -->
+  <polygon points="0,0 256,0 256,40 0,30" fill="#e8e2d0" opacity="0.04"/>
+  <polygon points="0,200 256,190 256,256 0,256" fill="#e8e2d0" opacity="0.03"/>
+  <polygon points="0,0 35,0 20,256 0,256" fill="#ff2e88" opacity="0.05"/>
+  <polygon points="220,0 256,0 256,256 240,256" fill="#00e5ff" opacity="0.04"/>
+
+  <!-- Glow halo behind crate -->
+  <polygon points="128,52 178,80 178,168 128,196 78,168 78,80" fill="#00e5ff" opacity="0.08"/>
+  <polygon points="128,68 162,88 162,152 128,172 94,152 94,88" fill="#00e5ff" opacity="0.12"/>
+  <polygon points="128,84 148,96 148,140 128,156 108,140 108,96" fill="#00e5ff" opacity="0.18"/>
+
+  <!-- Radiating burst rays from crate -->
+  <polygon points="118,40 128,10 138,40 128,30" fill="#ff2e88" opacity="0.7"/>
+  <polygon points="60,70 30,52 68,84 74,72" fill="#00e5ff" opacity="0.5"/>
+  <polygon points="196,70 226,52 188,84 182,72" fill="#00e5ff" opacity="0.5"/>
+  <polygon points="50,130 22,140 52,148" fill="#ff2e88" opacity="0.4"/>
+  <polygon points="206,130 234,140 204,148" fill="#ff2e88" opacity="0.4"/>
+  <polygon points="90,196 70,220 96,210" fill="#00e5ff" opacity="0.3"/>
+  <polygon points="166,196 186,220 160,210" fill="#00e5ff" opacity="0.3"/>
+
+  <!-- Crate body - weathered stencil -->
+  <polygon points="72,86 128,64 184,86 184,160 128,182 72,160" fill="#e8e2d0"/>
+  <!-- Crate shadow/depth -->
+  <polygon points="128,64 184,86 184,160 128,182" fill="#c4bfae"/>
+  <polygon points="72,86 128,64 128,182 72,160" fill="#d8d2c0"/>
+
+  <!-- Crate plank lines -->
+  <polygon points="72,108 184,108 184,112 72,112" fill="#0d0d0f" opacity="0.6"/>
+  <polygon points="72,134 184,134 184,138 72,138" fill="#0d0d0f" opacity="0.6"/>
+  <polygon points="100,68 100,178 104,180 104,68" fill="#0d0d0f" opacity="0.5"/>
+  <polygon points="152,68 152,178 156,180 156,68" fill="#0d0d0f" opacity="0.5"/>
+
+  <!-- Crate corner brackets -->
+  <polygon points="72,86 90,79 90,91 82,94 72,98" fill="#0d0d0f"/>
+  <polygon points="184,86 166,79 166,91 174,94 184,98" fill="#0d0d0f"/>
+  <polygon points="72,160 90,167 90,155 82,152 72,148" fill="#0d0d0f"/>
+  <polygon points="184,160 166,167 166,155 174,152 184,148" fill="#0d0d0f"/>
+
+  <!-- Cracks in the crate - main fracture lines -->
+  <polygon points="128,64 120,90 130,95 118,120 126,125 112,150 120,155 128,182" fill="none" stroke="#0d0d0f" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="128,64 140,86 132,94 145,114 136,122 150,144 140,152 128,182" fill="none" stroke="#0d0d0f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Crack branching -->
+  <polygon points="120,90 100,98 106,102" fill="none" stroke="#0d0d0f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="145,114 164,108 158,116" fill="none" stroke="#0d0d0f" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="112,150 96,158 102,162" fill="none" stroke="#0d0d0f" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Break opening - dark void in center of crack -->
+  <polygon points="124,100 134,96 140,108 136,124 126,128 118,118 120,104" fill="#0d0d0f"/>
+
+  <!-- Glow bursting from crack -->
+  <polygon points="124,104 132,100 136,112 132,120 124,122 118,116 120,108" fill="#00e5ff" opacity="0.9"/>
+  <polygon points="126,108 130,106 132,114 130,118 126,118 122,114 124,110" fill="#e8e2d0" opacity="0.8"/>
+
+  <!-- Hot pink sparks/particles -->
+  <polygon points="138,92 142,88 144,94 140,96" fill="#ff2e88"/>
+  <polygon points="116,88 112,82 118,84" fill="#ff2e88"/>
+  <polygon points="148,116 154,112 152,120" fill="#ff2e88"/>
+  <polygon points="108,136 100,134 104,142" fill="#ff2e88"/>
+  <polygon points="140,148 146,154 138,154" fill="#ff2e88"/>
+  <polygon points="130,80 134,74 136,82" fill="#00e5ff"/>
+  <polygon points="114,160 108,166 112,168" fill="#00e5ff"/>
+
+  <!-- Scattered debris fragments -->
+  <polygon points="160,175 168,172 165,180" fill="#e8e2d0" opacity="0.5"/>
+  <polygon points="88,170 80,176 86,178" fill="#e8e2d0" opacity="0.4"/>
+  <polygon points="150,190 156,194 148,196" fill="#e8e2d0" opacity="0.3"/>
+  <polygon points="100,186 94,192 102,192" fill="#e8e2d0" opacity="0.35"/>
+
+  <!-- Distressed screenprint noise dots -->
+  <circle cx="48" cy="48" r="1.5" fill="#e8e2d0" opacity="0.15"/>
+  <circle cx="210" cy="52" r="1" fill="#e8e2d0" opacity="0.12"/>
+  <circle cx="62" cy="200" r="1.5" fill="#e8e2d0" opacity="0.1"/>
+  <circle cx="195" cy="210" r="1" fill="#e8e2d0" opacity="0.1"/>
+  <circle cx="220" cy="180" r="1.5" fill="#ff2e88" opacity="0.1"/>
+  <circle cx="40" cy="150" r="1" fill="#00e5ff" opacity="0.08"/>
+
+  <!-- Small crop mark in corner -->
+  <polygon points="8,8 8,20 10,20 10,10 20,10 20,8" fill="#e8e2d0" opacity="0.2"/>
+  <polygon points="248,248 248,236 246,236 246,246 236,246 236,248" fill="#e8e2d0" opacity="0.2"/>
+</svg>
