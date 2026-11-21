@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.spec
+src-native/rpf_helper/bin/
+src-native/rpf_helper/obj/
+.pytest_cache/
+repack.manifest.sig.json
+*.log
+logs/
